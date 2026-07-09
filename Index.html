@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harlem Courier Service | Upper Manhattan & Bronx Delivery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandGreen: '#16a34a',
+                        brandBlack: '#111827',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-brandBlack font-sans antialiased">
+
+    <header class="border-b border-gray-200 sticky top-0 bg-white/95 backdrop-blur z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="text-xl font-black tracking-tight uppercase text-brandBlack">Harlem Courier</span>
+                <span class="text-xs font-bold tracking-widest uppercase text-brandGreen -mt-1">Service</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#services" class="hover:text-brandGreen transition">Services</a>
+                <a href="#estimator" class="hover:text-brandGreen transition">Rate Estimator</a>
+                <a href="#partners" class="hover:text-brandGreen transition">Partnerships</a>
+            </nav>
+            <div>
+                <a href="#estimator" class="bg-brandGreen text-white px-5 py-2.5 rounded-md font-bold hover:bg-green-700 transition shadow-sm inline-block">Book a Courier</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-white py-20 lg:py-32 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 bg-green-50 text-brandGreen px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
+                    GoGreen Brand Network Partner
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-brandBlack leading-tight">
+                    From 110th St <br><span class="text-brandGreen">To The Bronx.</span>
+                </h1>
+                <p class="mt-6 text-lg text-gray-600 max-w-xl">
+                    Upper Manhattan's premier B2B and local courier network. Fast, reliable delivery for retail, medical, and restaurants, backed by carbon-neutral fleet initiatives.
+                </p>
+                <div class="mt-10 flex flex-wrap gap-4">
+                    <a href="#estimator" class="bg-brandBlack text-white px-8 py-4 rounded-md font-bold hover:bg-gray-800 transition">Schedule Pickup</a>
+                    <a href="#services" class="border-2 border-brandBlack text-brandBlack px-8 py-4 rounded-md font-bold hover:bg-gray-50 transition">View Services</a>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-8 border border-gray-200 shadow-inner flex flex-col justify-center min-h-[300px] text-center">
+                <span class="text-sm font-bold text-brandGreen tracking-widest uppercase mb-2">Primary Coverage Zone</span>
+                <h3 class="text-2xl font-black mb-4">Upper Manhattan & Beyond</h3>
+                <p class="text-gray-600 max-w-sm mx-auto">Providing swift, reliable routing navigating the gridlock from 110th Street, through Washington Heights & Inwood, straight into the Bronx.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="py-12 bg-gray-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Logistics Scaled By Industry Leaders</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-16 opacity-75 grayscale hover:grayscale-0 transition duration-300">
+                <span class="font-extrabold text-xl tracking-tight text-brandBlack">DoorDash Dasher</span>
+                <span class="font-extrabold text-xl tracking-tight text-brandBlack">Amazon Flex</span>
+                <span class="font-extrabold text-xl tracking-tight text-brandBlack">delivery.com</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black uppercase tracking-tight">Our Core Services</h2>
+                <p class="text-gray-600 mt-4">Flexible delivery solutions tailored for local retail, corporate distribution, and eco-friendly commitments.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border border-gray-200 p-8 rounded-xl shadow-sm hover:border-brandGreen transition">
+                    <div class="w-12 h-12 rounded-lg bg-brandBlack text-white flex items-center justify-center font-bold text-xl mb-6">⚡</div>
+                    <h3 class="text-xl font-bold mb-3">On-Demand Rush</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Fast-tracked courier service across Upper Manhattan corridors. Perfect for tight constraints, time-sensitive documents, and immediate retail needs.</p>
+                </div>
+
+                <div class="border-2 border-brandGreen p-8 rounded-xl shadow-md relative bg-white">
+                    <div class="absolute -top-3 left-8 bg-brandGreen text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                        Featured Service
+                    </div>
+                    <div class="w-12 h-12 rounded-lg bg-brandGreen text-white flex items-center justify-center font-bold text-xl mb-6">🌱</div>
+                    <h3 class="text-xl font-bold mb-3">GoGreen Delivery</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Certified via the <strong class="text-brandBlack">GoGreen Brand Network</strong>. Utilizes zero-emission local transit (e-bikes/scooters) or verified carbon offsets to ensure your company hits its sustainability metrics seamlessly.</p>
+                </div>
+
+                <div class="border border-gray-200 p-8 rounded-xl shadow-sm hover:border-brandGreen transition">
+                    <div class="w-12 h-12 rounded-lg bg-brandBlack text-white flex items-center justify-center font-bold text-xl mb-6">📦</div>
+                    <h3 class="text-xl font-bold mb-3">B2B Route Logistics</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Scheduled routes crossing the bridge between Manhattan and the Bronx. Optimized multi-stop delivery loops scaled for restaurants and local operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="estimator" class="py-20 bg-brandBlack text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold text-brandGreen uppercase tracking-widest">Instant Dispatch & Rates</span>
+                <h2 class="text-3xl sm:text-4xl font-black uppercase mt-2">Request A Courier</h2>
+            </div>
+            
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-gray-900 p-8 rounded-xl border border-gray-800 shadow-xl">
+                
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="hidden" name="subject" value="New Harlem Courier Dispatch Request">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Pickup Zone</label>
+                        <select name="pickup_zone" id="pickup" onchange="calculateRate()" class="w-full bg-brandBlack border border-gray-800 rounded px-4 py-3 text-white focus:outline-none focus:border-brandGreen cursor-pointer">
+                            <option value="harlem">Harlem (110th - 135th)</option>
+                            <option value="heights">Washington Heights</option>
+                            <option value="inwood">Inwood</option>
+                            <option value="bronx">The Bronx</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Drop-off Zone</label>
+                        <select name="dropoff_zone" id="dropoff" onchange="calculateRate()" class="w-full bg-brandBlack border border-gray-800 rounded px-4 py-3 text-white focus:outline-none focus:border-brandGreen cursor-pointer">
+                            <option value="harlem">Harlem (110th - 135th)</option>
+                            <option value="heights">Washington Heights</option>
+                            <option value="inwood">Inwood</option>
+                            <option value="bronx" selected>The Bronx</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Exact Pickup Address</label>
+                        <input type="text" name="exact_pickup" required placeholder="e.g., 215 W 125th St" class="w-full bg-brandBlack border border-gray-800 rounded px-4 py-3 text-white focus:outline-none focus:border-brandGreen">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Exact Drop-off Address</label>
+                        <input type="text" name="exact_dropoff" required placeholder="e.g., Grand Concourse, Bronx" class="w-full bg-brandBlack border border-gray-800 rounded px-4 py-3 text-white focus:outline-none focus:border-brandGreen">
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-3 p-4 bg-brandBlack rounded border border-gray-800">
+                    <input type="checkbox" name="gogreen_certified" id="gogreen-toggle" onchange="calculateRate()" class="w-5 h-5 accent-brandGreen cursor-pointer">
+                    <label for="gogreen-toggle" class="text-sm font-medium cursor-pointer select-none">
+                        Opt for a <span class="text-brandGreen font-bold">GoGreen Certified</span> Carbon-Neutral Delivery (+$5.00)
+                    </label>
+                </div>
+
+                <div class="bg-brandBlack border border-gray-800 rounded-lg p-6 flex items-center justify-between">
+                    <div>
+                        <h4 class="text-sm font-bold uppercase text-gray-400 tracking-wider">Estimated Delivery Total</h4>
+                        <p class="text-xs text-gray-500 mt-1">Final invoice generated upon dispatch verification.</p>
+                    </div>
+                    <div class="text-right">
+                        <span id="price-display" class="text-3xl font-black text-brandGreen">$25.00</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-brandGreen text-white font-bold py-4 rounded hover:bg-green-700 transition uppercase tracking-wider shadow-lg">
+                    Submit Dispatch Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-8 text-center text-xs font-medium text-gray-500">
+        <p>&copy; 2026 Harlem Courier Service (harlemcourierservice.com). All rights reserved.</p>
+        <p class="mt-2 text-gray-400">Partnered with DoorDash, Amazon Flex, delivery.com, and the GoGreen Brand Network.</p>
+    </footer>
+
+    <script>
+        function calculateRate() {
+            const pickup = document.getElementById('pickup').value;
+            const dropoff = document.getElementById('dropoff').value;
+            const isGoGreen = document.getElementById('gogreen-toggle').checked;
+            
+            // Base price for a hyper-local run
+            let baseRate = 15; 
+            
+            // Cross-neighborhood logic charges
+            if (pickup !== dropoff) {
+                if ((pickup === 'harlem' && dropoff === 'bronx') || (pickup === 'bronx' && dropoff === 'harlem')) {
+                    baseRate += 10; // Longest distance surcharge
+                } else {
+                    baseRate += 5; // Adjacent neighborhood surcharge
+                }
+            }
+            
+            // GoGreen Network premium addon
+            if (isGoGreen) {
+                baseRate += 5;
+            }
+            
+            // Update the display automatically
+            document.getElementById('price-display').innerText = `$${baseRate}.00`;
+        }
+        
+        // Run once on load to establish the initial price display
+        window.onload = calculateRate;
+    </script>
+
+</body>
+</html>
