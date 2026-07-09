@@ -110,7 +110,14 @@
                     <h3 class="text-xl font-bold mb-3">B2B Route Logistics</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Scheduled routes crossing the bridge between Manhattan and the Bronx. Optimized multi-stop delivery loops scaled for restaurants and local operations.</p>
                 </div>
-            </div>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="abfdf4d8-2e6b-4f22-a01c-c880ba304f2f" value="abfdf4d8-2e6b-4f22-a01c-c880ba304f2f">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+</div>
         </div>
     </section>
 
